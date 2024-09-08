@@ -156,7 +156,7 @@ mempool.space/mining/pool/foundryusa to mempool.space/mining/pool/foundrypool
 
 ## Block re-indexing
 
-When a mining pool's coinbase tag or addresses is updated in `pools.jon`,
+When a mining pool's coinbase tag or addresses is updated in `pools.json`,
 mempool can automatically re-index the appropriate blocks in order to re-assign
 them to the correct mining pool.
 "Appropriate" blocks here concern all blocks which are not yet assigned to a
